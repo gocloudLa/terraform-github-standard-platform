@@ -1,5 +1,6 @@
 module "wrapper_organization" {
-  source = "../../../../MODULES/terraform-github-wrapper-organization"
+  source  = "gocloudLa/wrapper-organization/github"
+  version = "0.1.0"
 
   metadata = var.metadata
 
@@ -8,7 +9,8 @@ module "wrapper_organization" {
 }
 
 module "wrapper_team" {
-  source = "../../../../MODULES/terraform-github-wrapper-team"
+  source  = "gocloudLa/wrapper-team/github"
+  version = "0.1.0"
 
   metadata = var.metadata
 

@@ -1,5 +1,6 @@
 module "wrapper_repository" {
-  source = "../../../../MODULES/terraform-github-wrapper-repository"
+  source  = "gocloudLa/wrapper-repository/github"
+  version = "0.1.0"
 
   metadata = var.metadata
 
