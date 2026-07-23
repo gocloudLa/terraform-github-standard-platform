@@ -14,7 +14,7 @@ module "wrapper_organization" {
 
   organization_parameters = {}
   organization_defaults   = {}
-  team_parameters          = {}
+  team_parameters         = {}
   team_defaults           = {}
 }
 
