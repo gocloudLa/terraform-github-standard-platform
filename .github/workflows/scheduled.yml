@@ -1,0 +1,19 @@
+---
+name: Terraform Scheduled
+on:
+  workflow_dispatch: { }  # Allows manually trigger this workflow
+  schedule:
+    - cron: "0 3 * * *"
+
+permissions:
+  pull-requests: write
+  id-token: write
+  contents: write
+
+jobs:
+  scheduled:
+    uses: gocloudLa/.github/.github/workflows/shared-terraform-scheduled.yml@main
+    with:
+      skip_readme_generator: true
+      skip_maintenance: true
+    secrets: inherit
