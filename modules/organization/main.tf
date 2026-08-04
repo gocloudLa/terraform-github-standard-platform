@@ -1,6 +1,6 @@
 module "wrapper_organization" {
   source  = "gocloudLa/wrapper-organization/github"
-  version = "0.1.0"
+  version = "0.1.1"
 
   metadata = var.metadata
 
