@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/gocloudLa/terraform-github-standard-platform/compare/v0.1.0...v0.1.1) (2026-09-02)
+
+
+### Bug Fixes
+
+* **organization/wrapper-organization:** (0.1.0→0.1.1) remove validation ([#3](https://github.com/gocloudLa/terraform-github-standard-platform/issues/3)) ([149673c](https://github.com/gocloudLa/terraform-github-standard-platform/commit/149673c43e132a17b112f1fd0a1c94704e84fbf9))
+
 ## 0.1.0 (2026-07-23)
 
 
